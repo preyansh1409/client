@@ -88,11 +88,20 @@
     }
     .article-featured-img {
       width: 100%;
-      max-height: 460px;
-      object-fit: cover;
+      max-height: 540px;
+      object-fit: contain;
+      background: #f8fafc;
       border-radius: 16px;
       margin-bottom: 40px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    }
+    .article-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin: 24px auto;
+      display: block;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.08);
     }
     
     /* Markdown Typography */
@@ -402,11 +411,13 @@
         document.getElementById('artDate').textContent = `📅 ${meta.date ? meta.date.split(' ')[0] : 'Recent'}`;
         document.getElementById('artRead').textContent = `⏱ ${meta.reading_time || 5} min read`;
 
-        if (meta.featured_image) {
+        if (meta.featured_image && !body.includes(meta.featured_image)) {
           const img = document.getElementById('artImage');
           img.src = meta.featured_image;
           img.alt = title;
           img.style.display = 'block';
+        } else {
+          document.getElementById('artImage').style.display = 'none';
         }
 
         // Render Markdown Body
