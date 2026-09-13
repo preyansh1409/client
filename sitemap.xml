@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Home Page (Priority 1.0) -->
+  <url>
+    <loc>https://milestonefinancial.in/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://milestonefinancial.in/images/chetan-portrait.jpg</image:loc>
+      <image:title>Mr. Chetankumar Patel — Financial Distributor &amp; Mutual Fund Distributor Ahmedabad</image:title>
+      <image:caption>Mr. Chetan Kumar Patel at Milestone Financial Office, Ratnakar Nine Square, Vastrapur, Ahmedabad</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://milestonefinancial.in/images/milestone-logo.svg</image:loc>
+      <image:title>Milestone Financial Distribution Pvt. Ltd. Official Logo</image:title>
+    </image:image>
+  </url>
+
+  <!-- About Me Page -->
+  <url>
+    <loc>https://milestonefinancial.in/about.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://milestonefinancial.in/images/chetan-standing.jpg</image:loc>
+      <image:title>About Mr. Chetankumar Patel — AMFI Registered Mutual Fund Distributor ARN-333553</image:title>
+      <image:caption>Mr. Chetankumar Patel — 20+ Years Experience in Financial Planning &amp; Wealth Creation</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://milestonefinancial.in/services.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Goal-Based Investment Planner -->
+  <url>
+    <loc>https://milestonefinancial.in/goal-planner.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- SIP Calculator -->
+  <url>
+    <loc>https://milestonefinancial.in/sip-calculator.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- SWP Calculator -->
+  <url>
+    <loc>https://milestonefinancial.in/swp-calculator.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Lump Sum Calculator -->
+  <url>
+    <loc>https://milestonefinancial.in/lumpsum-calculator.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://milestonefinancial.in/contact.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+</urlset>

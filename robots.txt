@@ -1,0 +1,40 @@
+# ==============================================================================
+# Robots.txt for Milestone Financial — Mr. Chetankumar Patel
+# Web: https://milestonefinancial.in
+# Optimization: Full Crawler Access (Search Engines + Generative AI Bots)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Disallow:
+
+# AI Search & Answer Engine Crawlers (AEO / GEO Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://milestonefinancial.in/sitemap.xml

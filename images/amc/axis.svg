@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" width="190" height="64">
+  <rect width="190" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <g transform="translate(14, 13)">
+    <polygon points="0,38 19,0 38,38 27,38 19,21 11,38" fill="#97144d"/>
+    <polygon points="19,13 24,23 14,23" fill="#97144d"/>
+    <text x="46" y="19" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14.5" fill="#97144d" letter-spacing="1">AXIS</text>
+    <text x="46" y="32" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="9" fill="#334155" letter-spacing="0.5">MUTUAL FUND</text>
+  </g>
+</svg>

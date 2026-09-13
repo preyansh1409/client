@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: preyansh1409/client
+  branch: main
+  # base_url can be set to an OAuth gateway when hosted outside Netlify
+  # base_url: https://your-oauth-provider.vercel.app
+
+# Enable local development mode (run `npx decap-server` for instant local edits without GitHub login)
+local_backend: true
+
+# Image & media storage paths
+media_folder: "images/blog"
+public_folder: "images/blog"
+
+# Site Identity
+site_url: "https://milestonefinancial.in"
+display_url: "https://milestonefinancial.in"
+logo_url: "/images/milestone-logo.svg"
+
+# CMS Collections
+collections:
+  - name: "blog"
+    label: "Blog Articles"
+    label_singular: "Blog Article"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "blog-single.html?slug={{slug}}"
+    sortable_fields: ["date", "title"]
+    editor:
+      preview: true
+    fields:
+      - { label: "Article Title", name: "title", widget: "string", required: true }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm", date_format: "YYYY-MM-DD", time_format: "HH:mm", required: true }
+      - { label: "Category", name: "category", widget: "select", options: ["SIP & Compounding", "SWP & Pension", "Tax Planning (ELSS)", "Market Insights", "Retirement Planning", "Financial Wisdom"], default: "SIP & Compounding" }
+      - { label: "Featured Cover Image", name: "featured_image", widget: "image", required: false, hint: "Recommended size: 1200x630 px. Uploads to images/blog/" }
+      - { label: "Short Excerpt (SEO Summary)", name: "excerpt", widget: "text", required: true, hint: "A concise 1-2 sentence preview for search engines and blog cards." }
+      - { label: "Author Name", name: "author", widget: "string", default: "Mr. Chetankumar Patel", required: true }
+      - { label: "Estimated Reading Time (Mins)", name: "reading_time", widget: "number", default: 5, value_type: "int" }
+      - { label: "Pin as Featured Article?", name: "featured", widget: "boolean", default: false, required: false }
+      - { label: "Article Body", name: "body", widget: "markdown", required: true }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" width="190" height="64">
+  <rect width="190" height="64" rx="8" fill="#17336b" stroke="#2563eb" stroke-width="1.5"/>
+  <g transform="translate(10, 11)">
+    <ellipse cx="18" cy="21" rx="14" ry="17" fill="#ffffff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <path d="M12 16 C13 12, 23 12, 24 16 C25 19, 22 24, 21 28 C20 30, 16 30, 15 28 C14 24, 11 19, 12 16 Z" fill="#17336b"/>
+    <circle cx="18" cy="15" r="4.5" fill="#17336b"/>
+    <text x="39" y="19" font-family="Georgia, serif" font-weight="bold" font-size="10.5" fill="#ffffff" letter-spacing="0.5">FRANKLIN TEMPLETON</text>
+    <text x="39" y="32" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="8.5" fill="#93c5fd" letter-spacing="2.2">INVESTMENTS</text>
+  </g>
+</svg>

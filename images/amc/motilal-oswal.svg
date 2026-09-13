@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" width="190" height="64">
+  <rect width="190" height="64" rx="8" fill="#fab915" stroke="#f59e0b" stroke-width="1.5"/>
+  <defs>
+    <radialGradient id="moOrb2" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </radialGradient>
+  </defs>
+  <g transform="translate(10, 11)">
+    <circle cx="18" cy="21" r="15" fill="url(#moOrb2)"/>
+    <path d="M38 34 C64 40, 128 40, 160 33" stroke="#dc2626" stroke-width="2.5" fill="none"/>
+    <text x="40" y="19" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="12" fill="#0f172a" letter-spacing="0.5">MOTILAL OSWAL</text>
+    <text x="41" y="30" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="700" font-size="9" fill="#1e293b">Mutual Fund</text>
+  </g>
+</svg>

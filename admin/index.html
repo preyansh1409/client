@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Content Manager — Milestone Financial</title>
+  <link rel="icon" type="image/svg+xml" href="../images/milestone-logo.svg" />
+  <!-- Decap CMS CSS Customization -->
+  <style>
+    /* Milestone Financial Navy & Gold Admin Accents */
+    :root {
+      --primary: #0b1e36;
+      --gold: #c8962c;
+    }
+  </style>
+</head>
+<body>
+  <!-- Include the Decap CMS script -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+  <script>
+    // Custom Blog Post Preview Component inside Decap Editor
+    if (window.CMS) {
+      const PostPreview = createClass({
+        render: function() {
+          const entry = this.props.entry;
+          const image = entry.getIn(['data', 'featured_image']);
+          const bg = this.props.getAsset(image);
+          
+          return h('div', { style: { fontFamily: 'Inter, system-ui, sans-serif', padding: '24px', maxWidth: '800px', margin: '0 auto', color: '#1e293b' } },
+            h('div', { style: { fontSize: '13px', fontWeight: '700', textTransform: 'uppercase', color: '#c8962c', letterSpacing: '1px', marginBottom: '8px' } },
+              entry.getIn(['data', 'category']) || 'Mutual Funds'
+            ),
+            h('h1', { style: { fontSize: '28px', fontWeight: '800', color: '#0b1e36', lineHeight: '1.3', marginBottom: '16px' } },
+              entry.getIn(['data', 'title']) || 'Untitled Article'
+            ),
+            h('div', { style: { fontSize: '13px', color: '#64748b', marginBottom: '20px', display: 'flex', gap: '16px' } },
+              h('span', {}, 'By ' + (entry.getIn(['data', 'author']) || 'Mr. Chetankumar Patel')),
+              h('span', {}, '• ' + (entry.getIn(['data', 'reading_time']) || 5) + ' min read')
+            ),
+            image ? h('img', { src: bg.toString(), style: { width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '12px', marginBottom: '24px', boxShadow: '0 4px 14px rgba(0,0,0,0.08)' } }) : null,
+            h('div', { style: { fontSize: '16px', lineHeight: '1.8', color: '#334155' } },
+              this.props.widgetFor('body')
+            )
+          );
+        }
+      });
+      CMS.registerPreviewTemplate('blog', PostPreview);
+    }
+  </script>
+</body>
+</html>
