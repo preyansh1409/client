@@ -1,5 +1,17 @@
 [
   {
+    "slug": "2026-09-13-happy-ganesh-chaturthi",
+    "title": "Happy Ganesh Chaturthi: Start Your Financial Journey with Lord Ganesha's Blessings",
+    "date": "2026-09-13 18:30",
+    "category": "Financial Wisdom",
+    "featured_image": "images/blog/ganesh-chaturthi.jpg",
+    "excerpt": "May Lord Ganesha remove obstacles from your life and bring prosperity, happiness, and success in your financial journey. Small steps today lead to big dreams tomorrow.",
+    "author": "Mr. Chetankumar Patel",
+    "reading_time": 2,
+    "featured": true,
+    "file": "content/blog/2026-09-13-happy-ganesh-chaturthi.md"
+  },
+  {
     "slug": "2026-09-13-5-smart-mutual-fund-strategies",
     "title": "5 Smart Mutual Fund Strategies Every Investor in Gujarat Must Know",
     "date": "2026-09-13 10:00",
@@ -8,7 +20,7 @@
     "excerpt": "Discover the 5 proven mutual fund compounding frameworks that beat inflation, minimize tax burdens, and create intergenerational wealth without market timing stress.",
     "author": "Mr. Chetankumar Patel",
     "reading_time": 6,
-    "featured": true,
+    "featured": false,
     "file": "content/blog/2026-09-13-5-smart-mutual-fund-strategies.md"
   },
   {
