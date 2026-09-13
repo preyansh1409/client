@@ -13,8 +13,8 @@ media_folder: "images/blog"
 public_folder: "images/blog"
 
 # Site Identity
-site_url: "https://milestonefinancial.in"
-display_url: "https://milestonefinancial.in"
+site_url: "https://chetanmutualfund.com"
+display_url: "chetanmutualfund"
 logo_url: "/images/milestone-logo.svg"
 
 # CMS Collections
